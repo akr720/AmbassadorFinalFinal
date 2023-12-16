@@ -1,0 +1,1003 @@
+html {
+    box-sizing:border-box;
+    background-image: linear-gradient(to right, #2C1000, #603813, #2C1000);
+    font-family: vendetta, serif;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.logo {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.navbar {
+    font-weight: 500;
+    font-size: 50px;
+    background-color: #2C1000;
+    margin: -20px 0 0 0;
+    padding-top: 10px;
+    position: fixed;
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px 0px 20px;
+    color:#E08C00;
+
+}
+
+a:visited {
+    color: #E08C00;
+}
+a:hover {
+    color: gold;
+}
+
+li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    color: #E08C00;
+    font-size: 40px;
+    grid-template-columns: 40% 40%;
+}
+
+.grid-img {
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.grid-hours {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.grid-times {
+    grid-column-start: 2;
+}
+.grid-phone {   
+    grid-column-start: 2;
+}
+.grid-address {
+    grid-column-start: 2;
+}
+.grid-fb {
+    grid-column-start: 2;
+    
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow: hidden;
+}
+
+.footer {
+    display: grid;
+    background-color: #2C1000;
+    grid-template-columns: 50% 50%;
+    font-size: 200%;
+    padding: 10px;
+}
+.foot-hours {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-times {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-phone {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-address {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+
+.map {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.cfabimg {
+    position: relative;
+    text-align: center;
+}
+
+.cfabtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#E08C00;
+    font-size: 25px;
+}
+
+.history {
+    color:#E08C00;
+    font-size: 1.5em;
+    padding: 0 10% 10% 10%;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+
+    .app-head{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 3em;
+    }
+    .nacho-head {
+        grid-column-start: 2;
+        grid-row-start: 8;
+        font-size: 1.5em;
+    }
+    .nacho-dsc {
+        grid-column-start: 2;
+        grid-row-start: 9;
+    }
+    .add-head {
+        grid-row-start: 9;
+        grid-column-start: 3;
+    }
+    .baked-head {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        font-size: 1.5em;
+    }
+    .baked-dsc {
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+    .wings-head {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        font-size: 1.5em;
+    }
+    .wings-dsc {
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+    .toast-head {
+        grid-column-start: 3;
+        grid-row-start: 4;
+        font-size: 1.5em;
+    }
+    .toast-dsc {
+        grid-column-start: 3;
+        grid-row-start: 5;
+    }
+    .ball-head {
+        grid-column-start: 1;
+        grid-row-start: 6;
+        font-size: 1.5em;
+    }
+    .ball-dsc {
+        grid-column-start: 1;
+        grid-row-start: 7;
+    }
+    .taco-head {
+        grid-column-start: 2;
+        grid-row-start: 6;
+        font-size: 1.5em;
+    }
+    .taco-dsc {
+        grid-column-start: 2;
+        grid-row-start: 7;
+    }
+    .burrito-head {
+        grid-column-start: 3;
+        grid-row-start: 6;
+        font-size: 1.5em;
+    }
+    .burrito-dsc {
+        grid-column-start: 3;
+        grid-row-start: 7;
+    }
+    .grande-head {
+        grid-column-start: 1;
+        grid-row-start: 8;
+        font-size: 1.5em;
+    }
+    .grande-dsc {
+        grid-column-start: 1;
+        grid-row-start: 9;
+    }
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+    
+    .pizza-head {
+    grid-column-start: 1;
+    font-size: 3em;
+}
+.pizza-dsc {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.tostada-head {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.tostada-dsc {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.blt-head {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.blt-dsc {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.veg-head {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.veg-dsc {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+.greek-head {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 1.5em;
+}
+.greek-dsc {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+.garlic-head {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.garlic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.lobster-head {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.lobster-dsc {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+.pesto-head {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.pesto-dsc {
+    grid-column-start: 1;
+    grid-row-start: 8;
+}
+.ques-head {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.ques-dsc {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+.bbq-head {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.bbq-dsc {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+.byo-head {
+    grid-column-start: 2;
+    grid-row-start: 10;
+    font-size: 1.5em;
+}
+.byo-basic {
+    grid-column-start: 2;
+    grid-row-start: 11;
+}
+.byo-basic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 12;
+}
+.meats {
+    grid-column-start: 1;
+    grid-row-start: 13;
+}
+.shrimp-chick {
+    grid-column-start: 2;
+    grid-row-start: 13;
+}
+.veggies {
+    grid-column-start: 3;
+    grid-row-start: 13;
+}
+.pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 14;
+    font-size: 3em;
+}
+.pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    grid-column-end: 3;
+}
+.lasagna-head {
+    grid-column-start: 1;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.lasagna-dsc {
+    grid-column-start: 1;
+    grid-row-start: 17;
+}
+.ravioli-head {
+    grid-column-start: 2;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.ravioli-dsc {
+    grid-column-start: 2;
+    grid-row-start: 17;
+}
+.spaghetti-head {
+    grid-column-start: 3;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.spaghetti-dsc {
+    grid-column-start: 3;
+    grid-row-start: 17;
+}
+.pesto-pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.pesto-pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 19;
+}
+.spec-head {
+    grid-column-start: 2;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.spec-dsc {
+    grid-column-start: 2;
+    grid-row-start: 19;
+}
+.spec-add-head {
+    grid-column-start: 3;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.spec-add-dsc {
+    grid-column-start: 3;
+    grid-row-start: 19;
+}
+.salads-head {
+    grid-column-start: 1;
+    grid-row-start: 20;
+    font-size: 3em;
+}
+.salads-dsc {
+    grid-column-start: 1;
+    grid-row-start: 21;
+    grid-column-end: 3;
+}
+.house-head {
+    grid-column-start: 1;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.house-dsc {
+    grid-column-start: 1;
+    grid-row-start: 23;
+}
+.side-ceaser-head {
+    grid-column-start: 2;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.side-ceaser-dsc {
+    grid-column-start: 2;
+    grid-row-start: 23;
+}
+.ceaser-head {
+    grid-column-start: 3;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.ceaser-dsc {
+    grid-column-start: 3;
+    grid-row-start: 23;
+}
+.chef-head {
+    grid-column-start: 1;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.chef-dsc {
+    grid-column-start: 1;
+    grid-row-start: 25;
+}
+.garden-head {
+    grid-column-start: 2;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.garden-dsc {
+    grid-column-start: 2;
+    grid-row-start: 25;
+}
+.taco-salad-head {
+    grid-column-start: 3;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.taco-salad-dsc {
+    grid-column-start: 3;
+    grid-row-start: 25;
+}
+.beef-head {
+    grid-column-start: 1;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.beef-dsc {
+    grid-column-start: 1;
+    grid-row-start: 27;
+}
+.tuna-head {
+    grid-column-start: 2;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.tuna-dsc {
+    grid-column-start: 2;
+    grid-row-start: 27;
+}
+.greek-salad-head {
+    grid-column-start: 3;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.greek-salad-dsc {
+    grid-column-start: 3;
+    grid-row-start: 27;
+}
+}
+
+.sandwich-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+    
+    .sandwiches-head {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    font-size: 3em;
+}
+.sandwiches-dsc {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.trad-head {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.trad-dsc {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.three-head {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.three-dsc {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.spec-sand-head {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    font-size: 3em;
+}
+.spec-sand-dsc {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+}
+.ruben-head {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.ruben-dsc {
+    grid-column-start: 1;
+    grid-row-start: 8;
+}
+.yodel-head {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.yodel-dsc {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+.roast-head {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.roast-dsc {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+.york-head {
+    grid-column-start: 1;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.york-dsc {
+    grid-column-start: 1;
+    grid-row-start: 10;
+}
+.RACHEL-head {
+    grid-column-start: 2;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.rachel-dsc {
+    grid-column-start: 2;
+    grid-row-start: 10;
+}
+.hs-head {
+    grid-column-start: 3;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.hs-dsc {
+    grid-column-start: 3;
+    grid-row-start: 10;
+}
+.cudighi-head {
+    grid-column-start: 1;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.cudighi-dsc {
+    grid-column-start: 1;
+    grid-row-start: 12;
+}
+.meatball-head {
+    grid-column-start: 2;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.meatball-dsc {
+    grid-column-start: 2;
+    grid-row-start: 12;
+}
+.turkey-head {
+    grid-column-start: 3;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.turkey-dsc {
+    grid-column-start: 3;
+    grid-row-start: 12;
+}
+.dlx-head {
+    grid-column-start: 1;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.dlx-dsc {
+    grid-column-start: 1;
+    grid-row-start: 14;
+}
+.loaf-head {
+    grid-column-start: 2;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.loaf-dsc {
+    grid-column-start: 2;
+    grid-row-start: 14;
+}
+.ambo-head {
+    grid-column-start: 3;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.ambo-dsc {
+    grid-column-start: 3;
+    grid-row-start: 14;
+}
+.tuna-sand-head {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.tuna-sand-dsc {
+    grid-column-start: 1;
+    grid-row-start: 16;
+}
+.tuna-sup-head {
+    grid-column-start: 2;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.tuna-sup-dsc {
+    grid-column-start: 2;
+    grid-row-start: 16;
+}
+.club-head {
+    grid-column-start: 3;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.club-dsc {
+    grid-column-start: 3;
+    grid-row-start: 16;
+}
+.pc-head {
+    grid-column-start: 1;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.pc-dsc {
+    grid-column-start: 1;
+    grid-row-start: 18;
+}
+.chick-head {
+    grid-column-start: 2;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.chick-dsc {
+    grid-column-start: 2;
+    grid-row-start: 18;
+}
+.med-head {
+    grid-column-start: 3;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.med-dsc {
+    grid-column-start: 3;
+    grid-row-start: 18;
+}
+}
+
+.cocktail-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+
+    .cocktail-head {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        font-size: 3em;
+    }
+    .cocktail-dsc {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+    .pina-head {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        font-size: 1.5em;
+    }
+    .pina-dsc{
+        grid-column-start: 1;
+        grid-row-start: 4;
+    }
+    .scorpion-head {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        font-size: 1.5em;
+    }
+    .scorpion-dsc{
+        grid-column-start: 2;
+        grid-row-start: 4;
+    }
+    .pirate-head {
+        grid-column-start: 3;
+        grid-row-start: 3;
+        font-size: 1.5em;
+    }
+    .pirate-dsc{
+        grid-column-start: 3;
+        grid-row-start: 4;
+    }
+    .amli-head {
+        grid-column-start: 1;
+        grid-row-start: 5;
+        font-size: 1.5em;
+    }
+    .amli-dsc{
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+    .alaska-head {
+        grid-column-start: 2;
+        grid-row-start: 5;
+        font-size: 1.5em;
+    }
+    .alaska-dsc{
+        grid-column-start: 2;
+        grid-row-start: 6;
+    }
+    .frost-head {
+        grid-column-start: 3;
+        grid-row-start: 5;
+        font-size: 1.5em;
+    }
+    .frost-dsc{
+        grid-column-start: 3;
+        grid-row-start: 6;
+    }
+    .QUALUDE-head {
+        grid-column-start: 1;
+        grid-row-start: 7;
+        font-size: 1.5em;
+    }
+    .QUALUDE-dsc{
+        grid-column-start: 1;
+        grid-row-start: 8;
+    }
+    .rain-head {
+        grid-column-start: 2;
+        grid-row-start: 7;
+        font-size: 1.5em;
+    }
+    .rain-dsc{
+        grid-column-start: 2;
+        grid-row-start: 8;
+    }
+    .ocean-head {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        font-size: 1.5em;
+    }
+    .ocean-dsc{
+        grid-column-start: 3;
+        grid-row-start: 8;
+    }
+    .zom-head {
+        grid-column-start: 1;
+        grid-row-start: 9;
+        font-size: 1.5em;
+    }
+    .zom-dsc{
+        grid-column-start: 1;
+        grid-row-start: 10;
+    }
+    .maitai-head {
+        grid-column-start: 2;
+        grid-row-start: 9;
+        font-size: 1.5em;
+    }
+    .maitai-dsc{
+        grid-column-start: 2;
+        grid-row-start: 10;
+    }
+    .rasp-head {
+        grid-column-start: 3;
+        grid-row-start: 9;
+        font-size: 1.5em;
+    }
+    .rasp-dsc{
+        grid-column-start: 3;
+        grid-row-start: 10;
+    }
+    .vacay-head {
+        grid-column-start: 1;
+        grid-row-start: 11;
+        font-size: 1.5em;
+    }
+    .vacay-dsc{
+        grid-column-start: 1;
+        grid-row-start: 12;
+    }
+    .tart-head {
+        grid-column-start: 2;
+        grid-row-start: 11;
+        font-size: 1.5em;
+    }
+    .tart-dsc{
+        grid-column-start: 2;
+        grid-row-start: 12;
+    }
+    .strawb-head {
+        grid-column-start: 3;
+        grid-row-start: 11;
+        font-size: 1.5em;
+    }
+    .strawb-dsc{
+        grid-column-start: 3;
+        grid-row-start: 12;
+    }
+    .blue-head {
+        grid-column-start: 1;
+        grid-row-start: 13;
+        font-size: 1.5em;
+    }
+    .blue-dsc{
+        grid-column-start: 1;
+        grid-row-start: 14;
+    }
+    .motor-head {
+        grid-column-start: 2;
+        grid-row-start: 13;
+        font-size: 1.5em;
+    }
+    .motor-dsc{
+        grid-column-start: 2;
+        grid-row-start: 14;
+    }
+    .cabana-head {
+        grid-column-start: 3;
+        grid-row-start: 13;
+        font-size: 1.5em;
+    }
+    .cabana-dsc{
+        grid-column-start: 3;
+        grid-row-start: 14;
+    }
+    .snake-head {
+        grid-column-start: 1;
+        grid-row-start: 15;
+        font-size: 1.5em;
+    }
+    .snake-dsc{
+        grid-column-start: 1;
+        grid-row-start: 16;
+    }
+    .beach-head {
+        grid-column-start: 2;
+        grid-row-start: 15;
+        font-size: 1.5em;
+    }
+    .beach-dsc{
+        grid-column-start: 2;
+        grid-row-start: 16;
+    }
+    .tide-head {
+        grid-column-start: 3;
+        grid-row-start: 15;
+        font-size: 1.5em;
+    }
+    .tide-dsc{
+        grid-column-start: 3;
+        grid-row-start: 16;
+    }
+    .taxi-head {
+        grid-column-start: 1;
+        grid-row-start: 17;
+        font-size: 1.5em;
+    }
+    .taxi-dsc{
+        grid-column-start: 1;
+        grid-row-start: 18;
+    }
+    .ten-head {
+        grid-column-start: 2;
+        grid-row-start: 17;
+        font-size: 1.5em;
+    }
+    .ten-dsc{
+        grid-column-start: 2;
+        grid-row-start: 18;
+    }
+    .crash-head {
+        grid-column-start: 3;
+        grid-row-start: 17;
+        font-size: 1.5em;
+    }
+    .crash-dsc{
+        grid-column-start: 3;
+        grid-row-start: 18;
+    }
+    .lynch-head {
+        grid-column-start: 1;
+        grid-row-start: 19;
+        font-size: 1.5em;
+    }
+    .lynch-dsc{
+        grid-column-start: 1;
+        grid-row-start: 20;
+    }
+    .frog-head {
+        grid-column-start: 2;
+        grid-row-start: 19;
+        font-size: 1.5em;
+    }
+    .frog-dsc{
+        grid-column-start: 2;
+        grid-row-start: 20;
+    }
+}
+
+.reviews {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.takenbake {
+    color:#E08C00;
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type:circle;
+}

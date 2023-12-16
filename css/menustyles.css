@@ -1,0 +1,495 @@
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+}
+.pizza-head {
+    grid-column-start: 1;
+    font-size: 3em;
+}
+.pizza-dsc {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #2C1000;
+
+}
+.tostada-head {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.tostada-dsc {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.blt-head {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.blt-dsc {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.veg-head {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.veg-dsc {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+.greek-head {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 1.5em;
+}
+.greek-dsc {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+.garlic-head {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.garlic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.lobster-head {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.lobster-dsc {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+.pesto-head {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.pesto-dsc {
+    grid-column-start: 1;
+    grid-row-start: 8;
+}
+.ques-head {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.ques-dsc {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+.bbq-head {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.bbq-dsc {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+.byo-head {
+    grid-column-start: 2;
+    grid-row-start: 10;
+    font-size: 1.5em;
+}
+.byo-basic {
+    grid-column-start: 2;
+    grid-row-start: 11;
+}
+.byo-basic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 12;
+}
+.meats {
+    grid-column-start: 1;
+    grid-row-start: 13;
+}
+.shrimp-chick {
+    grid-column-start: 2;
+    grid-row-start: 13;
+}
+.veggies {
+    grid-column-start: 3;
+    grid-row-start: 13;
+}
+.pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 14;
+    font-size: 3em;
+}
+.pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    grid-column-end: 3;
+}
+.lasagna-head {
+    grid-column-start: 1;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.lasagna-dsc {
+    grid-column-start: 1;
+    grid-row-start: 17;
+}
+.ravioli-head {
+    grid-column-start: 2;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.ravioli-dsc {
+    grid-column-start: 2;
+    grid-row-start: 17;
+}
+.spaghetti-head {
+    grid-column-start: 3;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.spaghetti-dsc {
+    grid-column-start: 3;
+    grid-row-start: 17;
+}
+.pesto-pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.pesto-pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 19;
+}
+.spec-head {
+    grid-column-start: 2;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.spec-dsc {
+    grid-column-start: 2;
+    grid-row-start: 19;
+}
+.spec-add-head {
+    grid-column-start: 3;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.spec-add-dsc {
+    grid-column-start: 3;
+    grid-row-start: 19;
+}
+.salads-head {
+    grid-column-start: 1;
+    grid-row-start: 20;
+    font-size: 3em;
+}
+.salads-dsc {
+    grid-column-start: 1;
+    grid-row-start: 21;
+    grid-column-end: 3;
+}
+.house-head {
+    grid-column-start: 1;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.house-dsc {
+    grid-column-start: 1;
+    grid-row-start: 23;
+}
+.side-ceaser-head {
+    grid-column-start: 2;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.side-ceaser-dsc {
+    grid-column-start: 2;
+    grid-row-start: 23;
+}
+.ceaser-head {
+    grid-column-start: 3;
+    grid-row-start: 22;
+    font-size: 1.5em;
+}
+.ceaser-dsc {
+    grid-column-start: 3;
+    grid-row-start: 23;
+}
+.chef-head {
+    grid-column-start: 1;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.chef-dsc {
+    grid-column-start: 1;
+    grid-row-start: 25;
+}
+.garden-head {
+    grid-column-start: 2;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.garden-dsc {
+    grid-column-start: 2;
+    grid-row-start: 25;
+}
+.taco-salad-head {
+    grid-column-start: 3;
+    grid-row-start: 24;
+    font-size: 1.5em;
+}
+.taco-salad-dsc {
+    grid-column-start: 3;
+    grid-row-start: 25;
+}
+.beef-head {
+    grid-column-start: 1;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.beef-dsc {
+    grid-column-start: 1;
+    grid-row-start: 27;
+}
+.tuna-head {
+    grid-column-start: 2;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.tuna-dsc {
+    grid-column-start: 2;
+    grid-row-start: 27;
+}
+.greek-salad-head {
+    grid-column-start: 3;
+    grid-row-start: 26;
+    font-size: 1.5em;
+}
+.greek-salad-dsc {
+    grid-column-start: 3;
+    grid-row-start: 27;
+}
+.sandwich-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 0 auto;
+}
+.sandwiches-head {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    font-size: 3em;
+}
+.sandwiches-dsc {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+.trad-head {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.trad-dsc {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.three-head {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.three-dsc {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.spec-sand-head {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    font-size: 3em;
+}
+.spec-sand-dsc {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+}
+.ruben-head {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.ruben-dsc {
+    grid-column-start: 1;
+    grid-row-start: 8;
+}
+.yodel-head {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.yodel-dsc {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+.roast-head {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-size: 1.5em;
+}
+.roast-dsc {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+.york-head {
+    grid-column-start: 1;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.york-dsc {
+    grid-column-start: 1;
+    grid-row-start: 10;
+}
+.RACHEL-head {
+    grid-column-start: 2;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.rachel-dsc {
+    grid-column-start: 2;
+    grid-row-start: 10;
+}
+.hs-head {
+    grid-column-start: 3;
+    grid-row-start: 9;
+    font-size: 1.5em;
+}
+.hs-dsc {
+    grid-column-start: 3;
+    grid-row-start: 10;
+}
+.cudighi-head {
+    grid-column-start: 1;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.cudighi-dsc {
+    grid-column-start: 1;
+    grid-row-start: 12;
+}
+.meatball-head {
+    grid-column-start: 2;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.meatball-dsc {
+    grid-column-start: 2;
+    grid-row-start: 12;
+}
+.turkey-head {
+    grid-column-start: 3;
+    grid-row-start: 11;
+    font-size: 1.5em;
+}
+.turkey-dsc {
+    grid-column-start: 3;
+    grid-row-start: 12;
+}
+.dlx-head {
+    grid-column-start: 1;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.dlx-dsc {
+    grid-column-start: 1;
+    grid-row-start: 14;
+}
+.loaf-head {
+    grid-column-start: 2;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.loaf-dsc {
+    grid-column-start: 2;
+    grid-row-start: 14;
+}
+.ambo-head {
+    grid-column-start: 3;
+    grid-row-start: 13;
+    font-size: 1.5em;
+}
+.ambo-dsc {
+    grid-column-start: 3;
+    grid-row-start: 14;
+}
+.tuna-sand-head {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.tuna-sand-dsc {
+    grid-column-start: 1;
+    grid-row-start: 16;
+}
+.tuna-sup-head {
+    grid-column-start: 2;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.tuna-sup-dsc {
+    grid-column-start: 2;
+    grid-row-start: 16;
+}
+.club-head {
+    grid-column-start: 3;
+    grid-row-start: 15;
+    font-size: 1.5em;
+}
+.club-dsc {
+    grid-column-start: 3;
+    grid-row-start: 16;
+}
+.pc-head {
+    grid-column-start: 1;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.pc-dsc {
+    grid-column-start: 1;
+    grid-row-start: 18;
+}
+.chick-head {
+    grid-column-start: 2;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.chick-dsc {
+    grid-column-start: 2;
+    grid-row-start: 18;
+}
+.med-head {
+    grid-column-start: 3;
+    grid-row-start: 17;
+    font-size: 1.5em;
+}
+.med-dsc {
+    grid-column-start: 3;
+    grid-row-start: 18;
+}
